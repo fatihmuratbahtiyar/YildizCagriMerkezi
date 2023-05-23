@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kasaya_Toplam_Gelen__c</fullName>
+    <externalId>false</externalId>
+    <label>Kasaya Toplam Gelen</label>
+    <summarizedField>KASA__c.Kasaya_Gelen_Para__c</summarizedField>
+    <summaryForeignKey>KASA__c.Ana_Kasa__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

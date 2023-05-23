@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ali_toplam_harcama__c</fullName>
+    <externalId>false</externalId>
+    <label>ali toplam harcama</label>
+    <summarizedField>KASA__c.Ali_Bey_Harcama__c</summarizedField>
+    <summaryForeignKey>KASA__c.Ana_Kasa__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

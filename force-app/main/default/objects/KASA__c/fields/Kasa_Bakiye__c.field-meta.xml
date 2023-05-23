@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kasa_Bakiye__c</fullName>
+    <externalId>false</externalId>
+    <formula>Ana_Kasa__r.Kasaya_Toplam_Gelen__c -  Ana_Kasa__r.Alinin_ald_klar_toplam__c  - Ana_Kasa__r.Emine_nin_Ald_klar_Toplam__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Kasa Bakiye</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aktif_Personel_Listesi</fullName>
+    <columns>NAME</columns>
+    <columns>NickName__c</columns>
+    <columns>Telefon__c</columns>
+    <columns>SIP_No__c</columns>
+    <columns>E_mail__c</columns>
+    <columns>Giris__c</columns>
+    <columns>Cikis__c</columns>
+    <columns>Dogum_Gunu__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>AYRILDI__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Aktif Personel Listesi</label>
+</ListView>

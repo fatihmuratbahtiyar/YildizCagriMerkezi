@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>izin_hakki</fullName>
+    <active>true</active>
+    <errorConditionFormula>k_Tarihi__c  -  Var_Tarihi__c  &lt; 15</errorConditionFormula>
+    <errorMessage>Yıllık izin süresi 15 günden fazla olamaz</errorMessage>
+</ValidationRule>

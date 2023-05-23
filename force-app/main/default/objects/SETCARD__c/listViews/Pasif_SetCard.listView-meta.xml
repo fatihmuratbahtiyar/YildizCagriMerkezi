@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pasif_SetCard</fullName>
+    <columns>Personel__c</columns>
+    <columns>NAME</columns>
+    <columns>Aktif__c</columns>
+    <columns>Kart_Verilme_Tarihi__c</columns>
+    <columns>Kart_Iade_Tarihi__c</columns>
+    <columns>Kart_Bakiye__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Aktif__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Pasif SetCard</label>
+</ListView>

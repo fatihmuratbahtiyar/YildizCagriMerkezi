@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>Tarih__c</columns>
+    <columns>Kasaya_Gelen_Para__c</columns>
+    <columns>Ali_Bey_Verilen_Para__c</columns>
+    <columns>Ali_Bey_Harcama__c</columns>
+    <columns>Harcama_Kalemi_A__c</columns>
+    <columns>AliBakiye__c</columns>
+    <columns>Emine_Han_m_a_Verilen_Para__c</columns>
+    <columns>Emine_Harcama__c</columns>
+    <columns>Harcama_Kalemi__c</columns>
+    <columns>Emine_Han_m_Bakiye__c</columns>
+    <columns>Kasa_Bakiye__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>KASA__c.Verilen_Birim</value>
+    </filters>
+    <label>All</label>
+</ListView>
